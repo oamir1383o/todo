@@ -93,13 +93,13 @@ body {
     .rem {
         width: 110px;
         height: 110px;
-        order: -1;
+        order: 1;
         display: none;
     }
     .check {
         width: 110px;
         height: 110px;
-        order: 1;
+        order: -1;
         display: none;
     }
     .hidden {
