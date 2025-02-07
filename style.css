@@ -1,0 +1,106 @@
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+    h1 {
+        color: white;
+        font-size: 6em;
+    }
+    #add-movie {
+        width: 230px;
+        height: 230px;
+        background-color: white;
+        color: black;
+        font-size: 16em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.list {
+    height: auto;
+    width: 100%;
+    background-color: rgb(1, 233, 221);
+
+}
+    #inp-and-add {
+        display: flex;
+    }
+    #inp {
+        width: 80%;
+        height: 180px;
+        font-size: 4em;
+        direction: rtl;
+    }
+    #add {
+        width: 20%;
+        height: auto;
+        font-size: 2.7em;
+        background-color: green;
+        color: white;
+        box-shadow: -17px -17px 20px black inset;
+    }
+    ul {
+        list-style-type: none;
+        padding: 30px 0 0 0;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    li {
+        background-image: linear-gradient(to right , rgb(221, 129, 9) , rgb(188, 197, 63) );
+        border: 3px solid white;
+        border-radius: 10%/20%;
+        padding: 40px 0px;
+        color: white;
+        text-shadow: 4px 4px 3px black;
+        box-shadow: 10px 10px 10px black;
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4em;
+    }
+    .li-display {
+        justify-content: space-between;
+        background-image: linear-gradient(to right , rgba(128, 0, 128, 0.5) , rgba(197, 63, 197, 0.5) , rgba(255, 192, 203, 0.5));
+
+    }
+    .checkLi {
+        background-image: linear-gradient(to right , green , rgb(1, 104, 1) );
+
+        
+    }
+    .rem {
+        width: 110px;
+        height: 110px;
+        order: -1;
+        display: none;
+    }
+    .check {
+        width: 110px;
+        height: 110px;
+        order: 1;
+        display: none;
+    }
+    .hidden {
+        display: block;
+    }
