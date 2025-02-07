@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    background-color: rgb(1, 233, 221);
 
 }
 
